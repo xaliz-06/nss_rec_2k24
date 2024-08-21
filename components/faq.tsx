@@ -31,7 +31,7 @@ const FAQ = () => {
               3. What is the motto of NSS?
             </p>
             <p className="text-sm px-2 font-normal tracking-tighter md:text-base">
-              &apos;Not You But Me&apos;
+              &apos;Not Me But You&apos;
             </p>
           </div>
           <div className="flex flex-col gap-1">
