@@ -21,16 +21,22 @@ const PERSONNEL = [
     image: "/person/sruti.jpeg",
   },
   {
+    name: "Prashanta Kumar Patra",
+    designation: "Assitant Professor",
+    school: "School of Electronics Engineering",
+    image: "/person/patra.jpeg",
+  },
+  {
     name: "Pravin Kumar Samanta",
     designation: "Assistant Professor",
     school: "School of Electronics Engineering",
     image: "/person/pk.jpeg",
   },
   {
-    name: "Prashanta Kumar Patra",
-    designation: "Assitant Professor",
+    name: "Sraddhanjali Mohapatra",
+    designation: "Assistant Professor",
     school: "School of Electronics Engineering",
-    image: "/person/patra.jpeg",
+    image: "/person/mohapatra.jpeg",
   },
 ];
 

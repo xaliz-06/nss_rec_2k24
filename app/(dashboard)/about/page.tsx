@@ -1,5 +1,7 @@
+import AboutGallery from "@/components/about-gallery";
 import AboutNSS from "@/components/about-nss";
 import AboutUs from "@/components/about-us";
+import Banner from "@/components/banner";
 import Benefits from "@/components/benefits";
 import Certificate from "@/components/certificate";
 import Conclusion from "@/components/conclusion";
@@ -11,10 +13,11 @@ import { Separator } from "@/components/ui/separator";
 const AboutPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center p-8 gap-8">
+      <Banner />
       <AboutUs />
       <Separator className="mb-4" />
       <Events />
-      <Separator className="mb-4" />
+      <AboutGallery />
       <AboutNSS />
       <Separator className="mb-4" />
       <Benefits />

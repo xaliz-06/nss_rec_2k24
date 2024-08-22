@@ -16,7 +16,7 @@ const Footer = () => {
             <h4 className="font-bold tracking-tight text-white text-sm md:text-xl">
               Follow Our Social Media:
             </h4>
-            <div className="flex flex-col gap-3 text-white">
+            <div className="flex flex-row gap-3 text-white">
               <Link href="https://www.facebook.com/nssprojectlakshya">
                 <FaFacebook size={isMobile ? 24 : 32} />
               </Link>

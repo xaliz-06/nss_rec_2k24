@@ -16,7 +16,7 @@ const Logo = ({ image }: Props) => {
     <Link href="/">
       <div className="flex-row gap-3 items-center justify-center">
         {isMobile ? (
-          <Image src={image} alt="kiit" height={60} width={60} />
+          <Image src={image} alt="kiit" height={40} width={40} />
         ) : (
           <Image src={image} alt="kiit" height={80} width={80} />
         )}

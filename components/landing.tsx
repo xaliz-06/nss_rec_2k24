@@ -36,8 +36,8 @@ const Landing = () => {
             Project Lakshya
           </h2>
         </div>
-        <h3 className="font-semibold text-xl tracking-tighter text-teal-600 md:text-2xl">
-          Recruitment begins soon! 🥳🎉
+        <h3 className="font-semibold text-xl tracking-tighter text-rose-600 md:text-2xl">
+          Recruitment Is Live! 🥳🎉
         </h3>
         <div className="flex flex-col items-center gap-4">
           <div>

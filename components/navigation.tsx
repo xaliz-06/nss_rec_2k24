@@ -59,7 +59,7 @@ const Navigation = () => {
     );
   }
   return (
-    <div className="flex flex-1 flex-row gap-10 items-center p-3">
+    <div className="flex flex-1 flex-row gap-10 items-center justify-end p-3">
       {routes.map((route, index) => (
         <Button
           variant="outline"
