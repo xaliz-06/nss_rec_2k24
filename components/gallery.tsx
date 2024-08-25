@@ -6,7 +6,6 @@ import Image from "next/image";
 import { useMedia } from "react-use";
 
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
-import { Card, CardContent } from "./ui/card";
 
 import Autoplay from "embla-carousel-autoplay";
 
@@ -27,13 +26,32 @@ const GALLERY = [
 ];
 
 const Gallery = () => {
-  const isMobile = useMedia("(max-width: 1023px)", false);
+  const isMobile = useMedia("(max-width: 576px)", false);
+  const isTablet = useMedia(
+    "(min-width: 577px) and (max-width: 1023px)",
+    false
+  );
+  const isDesktop = useMedia("(min-width: 1024px)", false);
+
+  let height = 40;
+  let width = 40;
+
+  if (isMobile) {
+    height = 350;
+    width = 350;
+  } else if (isTablet) {
+    height = 400;
+    width = 400;
+  } else if (isDesktop) {
+    height = 500;
+    width = 500;
+  }
 
   return (
     <div className="min-w-screen-2xl w-[90vw] mb-8 flex flex-col gap-4 md:w-full">
       <div className="flex flex-col gap-4">
         <div className="flex flex-col items-start">
-          <h3 className="font-bold text-blue-600 underline underline-offset-8 decoration-6 decoration-teal-500 text-3xl tracking-tight leading-10 md:text-4xl">
+          <h3 className="font-bold text-[#070F2B] underline underline-offset-8 decoration-6 decoration-blue-900 text-3xl tracking-tight leading-10 md:text-4xl">
             GALLERY
           </h3>
         </div>
@@ -50,27 +68,13 @@ const Gallery = () => {
             {GALLERY.map((image, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="flex items-center justify-center">
-                  <Card className="rounded-md bg-blue-500/10 border-none outline-none w-[95vw]">
-                    <CardContent className="flex items-center justify-center flex-col md:flex-row p-3 gap-4">
-                      {isMobile ? (
-                        <Image
-                          src={image}
-                          alt={image}
-                          width={300}
-                          height={300}
-                          className="rounded-sm"
-                        />
-                      ) : (
-                        <Image
-                          src={image}
-                          alt={image}
-                          width={600}
-                          height={600}
-                          className="rounded-sm"
-                        />
-                      )}
-                    </CardContent>
-                  </Card>
+                  <Image
+                    src={image}
+                    alt={image}
+                    width={width}
+                    height={height}
+                    className="rounded-sm"
+                  />
                 </div>
               </CarouselItem>
             ))}

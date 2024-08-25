@@ -12,7 +12,7 @@ import { Separator } from "@/components/ui/separator";
 
 const AboutPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center p-8 gap-8">
+    <div className="flex min-h-screen flex-col items-center p-8 gap-8 mt-14 md:mt-18 lg:mt-20">
       <Banner />
       <AboutUs />
       <Separator className="mb-4" />

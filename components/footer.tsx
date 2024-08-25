@@ -9,7 +9,7 @@ const Footer = () => {
   const isMobile = useMedia("(max-width: 1023px)", false);
 
   return (
-    <footer className="bg-gradient-to-r from-blue-500 via-cyan-500 to-teal-500 px-6 py-5 w-full pt-8 md:pt-12">
+    <footer className="bg-[#070F2B] px-6 py-5 w-full pt-8 md:pt-12">
       <div className="max-w-screen-2xl mx-auto">
         <div className="w-full flex items-start justify-between">
           <div className="flex flex-col gap-4">

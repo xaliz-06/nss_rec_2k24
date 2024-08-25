@@ -2,16 +2,16 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="border-outline rounded-md px-5 py-8 bg-gradient-to-r from-blue-500/40 via-cyan-500/40 to-teal-500/40 min-w-screen-2xl w-[90vw] md:w-full">
+    <div className="border-outline rounded-md px-5 py-8 bg-[#1B1A55]/90 min-w-screen-2xl w-[90vw] md:w-full">
       <div className="flex flex-col gap-4">
         <div className="flex flex-col items-start">
-          <h3 className="font-bold text-blue-600 underline underline-offset-8 decoration-6 decoration-teal-500 text-3xl tracking-tight leading-10 md:text-4xl">
+          <h3 className="font-bold text-white underline underline-offset-8 decoration-6 decoration-[#9290C3] text-3xl tracking-tight leading-10 md:text-4xl">
             ABOUT US
           </h3>
         </div>
         <div className="p-2 flex flex-col gap-2 md:pt-6">
-          <p className="text-sm font-normal tracking-tighter text-black md:text-base">
-            <span className="font-bold text-emerald-700">
+          <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
+            <span className="font-bold text-white">
               NSS SoEE at KIIT University
             </span>
             , is a dynamic student organization dedicated to community service
@@ -20,18 +20,18 @@ const AboutUs = () => {
             creating awareness, providing education, and facilitating skill
             development in various sectors. NSS SoEE is comprised of three key
             units:{" "}
-            <span className="font-bold text-emerald-700">
+            <span className="font-bold text-white">
               NSS SoEE Parivartan, NSS SoEE Lakshya, and Target JEE.
             </span>{" "}
           </p>
-          <p className="text-sm font-normal tracking-tighter text-black md:text-base">
+          <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
             Each unit has its own specific focus, working collectively towards
             the larger goal of social betterment.
           </p>
           <ol className="p-2 flex flex-col gap-3">
             <li>
-              <p className="text-sm font-normal tracking-tighter text-black md:text-base">
-                <span className="font-bold text-green-600">
+              <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
+                <span className="font-bold text-white">
                   1. NSS SoEE Project Lakshya:
                 </span>{" "}
                 The cornerstone of NSS SoEE Project Lakshya is primarily focused
@@ -44,8 +44,8 @@ const AboutUs = () => {
               </p>
             </li>
             <li>
-              <p className="text-sm font-normal tracking-tighter text-black md:text-base">
-                <span className="font-bold text-teal-700">
+              <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
+                <span className="font-bold text-slate-200">
                   2. NSS SoEE Parivartan:
                 </span>{" "}
                 This unit is dedicated to initiating changes in the community
@@ -53,8 +53,8 @@ const AboutUs = () => {
               </p>
             </li>
             <li>
-              <p className="text-sm font-normal tracking-tighter text-black md:text-base">
-                <span className="font-bold text-teal-700">3. Target JEE:</span>{" "}
+              <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
+                <span className="font-bold text-slate-200">3. Target JEE:</span>{" "}
                 This unit focuses on mentoring and guiding students who aspire
                 to excel in competitive exams.
               </p>

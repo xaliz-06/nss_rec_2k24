@@ -6,7 +6,6 @@ import Image from "next/image";
 import { useMedia } from "react-use";
 
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
-import { Card, CardContent } from "./ui/card";
 
 import Autoplay from "embla-carousel-autoplay";
 
@@ -18,7 +17,26 @@ const GALLERY = [
 ];
 
 const AboutGallery = () => {
-  const isMobile = useMedia("(max-width: 1023px)", false);
+  const isMobile = useMedia("(max-width: 576px)", false);
+  const isTablet = useMedia(
+    "(min-width: 577px) and (max-width: 1023px)",
+    false
+  );
+  const isDesktop = useMedia("(min-width: 1024px)", false);
+
+  let height = 40;
+  let width = 40;
+
+  if (isMobile) {
+    height = 350;
+    width = 350;
+  } else if (isTablet) {
+    height = 400;
+    width = 400;
+  } else if (isDesktop) {
+    height = 500;
+    width = 500;
+  }
 
   return (
     <div className="min-w-screen-2xl w-[90vw] mb-4 flex flex-col gap-4 md:w-full">
@@ -34,27 +52,13 @@ const AboutGallery = () => {
             {GALLERY.map((image, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="flex items-center justify-center">
-                  <Card className="rounded-md bg-blue-500/10 border-none outline-none w-[95vw]">
-                    <CardContent className="flex items-center justify-center flex-col md:flex-row p-3 gap-4">
-                      {isMobile ? (
-                        <Image
-                          src={image}
-                          alt={image}
-                          width={300}
-                          height={300}
-                          className="rounded-sm"
-                        />
-                      ) : (
-                        <Image
-                          src={image}
-                          alt={image}
-                          width={600}
-                          height={600}
-                          className="rounded-sm"
-                        />
-                      )}
-                    </CardContent>
-                  </Card>
+                  <Image
+                    src={image}
+                    alt={image}
+                    width={width}
+                    height={height}
+                    className="rounded-sm"
+                  />
                 </div>
               </CarouselItem>
             ))}

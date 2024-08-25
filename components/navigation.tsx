@@ -38,19 +38,18 @@ const Navigation = () => {
             <MenuIcon className="size-8" />
           </Button>
         </SheetTrigger>
-        <SheetContent
-          side="right"
-          className="p-2 w-[60vw] bg-gradient-to-b from-blue-500/30 via-cyan-500/30 to-teal-500/30"
-        >
+        <SheetContent side="left" className="p-2 w-[60vw] bg-white">
           <nav className="flex flex-col gap-y-2 pt-6">
             {routes.map((route) => (
               <Button
                 key={route.href}
                 variant={route.href === pathname ? "secondary" : "ghost"}
-                className={route.href === pathname ? "bg-teal-500/20" : ""}
+                className={route.href === pathname ? "bg-[#1B1A55]/40" : ""}
                 onClick={() => onClick(route.href)}
               >
-                <p className="text-lg font-bold text-blue-600">{route.label}</p>
+                <p className="text-lg font-bold text-[#070F2B]">
+                  {route.label}
+                </p>
               </Button>
             ))}
           </nav>
@@ -59,7 +58,7 @@ const Navigation = () => {
     );
   }
   return (
-    <div className="flex flex-1 flex-row gap-10 items-center justify-end p-3">
+    <div className="flex flex-1 flex-row gap-4 items-center justify-end p-3">
       {routes.map((route, index) => (
         <Button
           variant="outline"

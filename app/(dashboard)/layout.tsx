@@ -7,7 +7,7 @@ type Props = {
 
 const DashboardLayout = ({ children }: Props) => {
   return (
-    <main className="bg-gradient-to-r from-blue-500/30 via-cyan-500/30 to-teal-500/30">
+    <main className="bg-white">
       <Header />
       {children}
       <Footer />

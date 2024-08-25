@@ -7,12 +7,10 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
-import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
 import { useMedia } from "react-use";
 
 const IMAGES = [
-  "/lakshya_hero.png",
+  "/lakshya_banner.png",
   "/bg/21.JPG",
   "/bg/14.png",
   "/bg/10.jpg",
@@ -23,11 +21,31 @@ const IMAGES = [
 ];
 
 const Landing = () => {
-  const isMobile = useMedia("(max-width: 1023px)", false);
+  const isMobile = useMedia("(max-width: 576px)", false);
+  const isTablet = useMedia(
+    "(min-width: 577px) and (max-width: 1023px)",
+    false
+  );
+  const isDesktop = useMedia("(min-width: 1024px)", false);
+
+  let height = 40;
+  let width = 40;
+
+  if (isMobile) {
+    height = 20;
+    width = 200;
+  } else if (isTablet) {
+    height = 300;
+    width = 300;
+  } else if (isDesktop) {
+    height = 300;
+    width = 300;
+  }
 
   return (
-    <div className="border-outline rounded-md px-4 py-8 bg-gradient-to-r from-blue-500/30 via-cyan-500/30 to-teal-500/30 min-w-screen-2xl w-[90vw] md:w-full">
-      <div className="flex flex-col items-center text-center gap-8">
+    <div className="h-screen flex flex-col justify-center items-center overflow-hidden">
+      <div className="infinite-scrolling absolute overflow-hidden"></div>
+      <div className="flex flex-col items-center text-center gap-8 glassy border-outline rounded-lg py-8 px-6 w-[90vw] sm:w-full z-40">
         <div className="flex flex-col items-center gap-4">
           <h1 className="font-bold text-3xl tracking-tighter md:text-5xl">
             NSS School of Electronics Engineering
@@ -36,45 +54,19 @@ const Landing = () => {
             Project Lakshya
           </h2>
         </div>
-        <h3 className="font-semibold text-xl tracking-tighter text-rose-600 md:text-2xl">
+        <h3 className="font-semibold text-xl tracking-tighter text-rose-600 md:text-3xl">
           Recruitment Is Live! 🥳🎉
         </h3>
-        <div className="flex flex-col items-center gap-4">
-          <div>
-            <Carousel
-              plugins={[
-                Autoplay({
-                  delay: 2000,
-                }),
-              ]}
-            >
-              <CarouselContent>
-                {IMAGES.map((image, index) => (
-                  <CarouselItem key={index}>
-                    <div className="flex items-center justify-center">
-                      {isMobile ? (
-                        <Image
-                          src={image}
-                          alt={image}
-                          width={400}
-                          height={200}
-                          className="rounded-sm"
-                        />
-                      ) : (
-                        <Image
-                          src={image}
-                          alt={image}
-                          width={600}
-                          height={200}
-                          className="rounded-md"
-                        />
-                      )}
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-            </Carousel>
-          </div>
+        <div className="w-full flex justify-center items-center">
+          <Image
+            src="/lakshya_banner.png"
+            alt="lakshya"
+            width={width}
+            height={height}
+          />
+        </div>
+
+        <div>
           <div className="p-2">
             <Link href="https://forms.gle/NNoTQN9FgqAE5DeUA" target="_blank">
               <Button

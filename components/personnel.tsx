@@ -41,13 +41,32 @@ const PERSONNEL = [
 ];
 
 const Personnel = () => {
-  const isMobile = useMedia("(max-width: 1023px)", false);
+  const isMobile = useMedia("(max-width: 576px)", false);
+  const isTablet = useMedia(
+    "(min-width: 577px) and (max-width: 1023px)",
+    false
+  );
+  const isDesktop = useMedia("(min-width: 1024px)", false);
+
+  let height = 40;
+  let width = 40;
+
+  if (isMobile) {
+    height = 100;
+    width = 100;
+  } else if (isTablet) {
+    height = 120;
+    width = 120;
+  } else if (isDesktop) {
+    height = 150;
+    width = 150;
+  }
 
   return (
     <div className="min-w-screen-2xl w-[90vw] mb-8 flex flex-col gap-4 md:w-full">
       <div className="flex flex-col gap-4">
         <div className="flex flex-col items-start">
-          <h3 className="font-bold text-blue-600 underline underline-offset-8 decoration-6 decoration-teal-500 text-3xl tracking-tight leading-10 md:text-4xl">
+          <h3 className="font-bold text-[#070F2B] underline underline-offset-8 decoration-6 decoration-blue-900 text-3xl tracking-tight leading-10 md:text-4xl">
             OUR PROGRAMME OFFICERS
           </h3>
         </div>
@@ -62,37 +81,27 @@ const Personnel = () => {
         >
           <CarouselContent>
             {PERSONNEL.map((person, index) => (
-              <CarouselItem key={index} className="md:basis-1/3">
+              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1 flex items-center justify-center">
-                  <Card className="rounded-md bg-blue-500/10 border-none outline-none w-[80vw]">
+                  <Card className="rounded-md bg-slate-100 outline-1 w-[80vw] h-[30vh] md:h-[15vh] lg:h-[30vh] flex justify-center items-center">
                     <CardContent className="flex items-center justify-center flex-col md:flex-row p-3 gap-4">
-                      {isMobile ? (
-                        <Image
-                          src={person.image}
-                          alt={person.name}
-                          width={100}
-                          height={100}
-                          className="rounded-full aspect-square  object-cover"
-                        />
-                      ) : (
-                        <Image
-                          src={person.image}
-                          alt={person.name}
-                          width={200}
-                          height={100}
-                          className="rounded-full aspect-square  object-cover"
-                        />
-                      )}
+                      <Image
+                        src={person.image}
+                        alt={person.name}
+                        width={width}
+                        height={height}
+                        className="rounded-full aspect-square  object-cover"
+                      />
                       <div className="flex flex-col p-2">
-                        <div className="text-lg font-bold text-blue-600 md:text-xl">
+                        <div className="text-lg font-bold text-[#1B1A55] md:text-xl lg:text-xl leading-5">
                           {person.name}
                         </div>
-                        <div className="font-semibold text-xs md:text-base">
-                          <p className="no-ligatures text-blue-500/80">
+                        <div className="font-semibold text-sm md:text-sm lg:text-base">
+                          <p className="no-ligatures text-blue-900/70">
                             {person.designation}
                           </p>
                         </div>
-                        <div className="text-xs font-semibold text-emerald-700/70 md:text-base">
+                        <div className="text-sm font-semibold text-blue-900/40 md:text-sm lg:text-base">
                           {person.school}
                         </div>
                       </div>
