@@ -9,17 +9,6 @@ import Image from "next/image";
 
 import { useMedia } from "react-use";
 
-const IMAGES = [
-  "/lakshya_banner.png",
-  "/bg/21.JPG",
-  "/bg/14.png",
-  "/bg/10.jpg",
-  "/bg/11.jpg",
-  "/bg/12.png",
-  "/bg/13.png",
-  "/bg/15.png",
-];
-
 const Landing = () => {
   const isMobile = useMedia("(max-width: 576px)", false);
   const isTablet = useMedia(
@@ -43,23 +32,23 @@ const Landing = () => {
   }
 
   return (
-    <div className="h-screen flex flex-col justify-center items-center overflow-hidden">
-      <div className="infinite-scrolling absolute overflow-hidden"></div>
+    <div className="h-[90vh] flex flex-col justify-center items-center overflow-hidden">
+      <div className="infinite-scrolling absolute"></div>
       <div className="flex flex-col items-center text-center gap-8 glassy border-outline rounded-lg py-8 px-6 w-[90vw] sm:w-full z-40">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="font-bold text-3xl tracking-tighter md:text-5xl">
+          <h1 className="font-bold text-3xl tracking-tighter md:text-5xl text-white">
             NSS School of Electronics Engineering
           </h1>
-          <h2 className="font-bold text-3xl tracking-tight text-blue-600 md:text-4xl">
+          <h2 className="font-bold text-3xl tracking-tight text-[#a8a5f8] md:text-4xl">
             Project Lakshya
           </h2>
         </div>
         <h3 className="font-semibold text-xl tracking-tighter text-rose-600 md:text-3xl">
-          Recruitment Is Live! 🥳🎉
+          Recruitment Is Live!
         </h3>
         <div className="w-full flex justify-center items-center">
           <Image
-            src="/lakshya_banner.png"
+            src="/lakshya_hero.png"
             alt="lakshya"
             width={width}
             height={height}
@@ -72,7 +61,7 @@ const Landing = () => {
               <Button
                 variant="default"
                 size="lg"
-                className="font-bold bg-blue-600 hover:bg-blue-600/20 hover:text-white text-white border-none outline-none focus-visible:ring-offset-0 focus-visible:ring-transparent focus:bg-blue-600/30 w-72 rounded-sm transition px-8 py-6"
+                className="font-bold bg-[#070F2B] hover:bg-blue-600/20 hover:text-white text-white border-none outline-none focus-visible:ring-offset-0 focus-visible:ring-transparent focus:bg-blue-600/30 w-72 rounded-md transition px-8 py-6"
               >
                 <p className="font-bold text-white tracking-tight text-2xl">
                   Register Now!

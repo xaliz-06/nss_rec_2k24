@@ -14,12 +14,12 @@ import { Card, CardContent } from "./ui/card";
 import { useMedia } from "react-use";
 
 const PERSONNEL = [
-  {
-    name: "Sruti S. Singh",
-    designation: "Assistant Professor",
-    school: "School of Electronics Engineering",
-    image: "/person/sruti.jpeg",
-  },
+  // {
+  //   name: "Sruti S. Singh",
+  //   designation: "Assistant Professor",
+  //   school: "School of Electronics Engineering",
+  //   image: "/person/sruti.jpeg",
+  // },
   {
     name: "Prashanta Kumar Patra",
     designation: "Assitant Professor",

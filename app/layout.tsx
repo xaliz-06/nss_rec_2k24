@@ -19,7 +19,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/lakshya_hero.png" sizes="any" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
