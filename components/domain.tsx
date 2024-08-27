@@ -42,11 +42,18 @@ const Domain = () => {
             </li>
             <li>
               <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
+                <span className="font-bold text-white">📌 Core</span>: This
+                domain brings out the managerial skills of the volunteers,
+                enabling them to seamlessly manage and communicate between teams
+                and help organize awesome events.
+              </p>
+            </li>
+            <li>
+              <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
                 <span className="font-bold text-white">📃 Content Writing</span>
-                : Content creators are responsible for documenting the
-                activities of NSS SoEE, writing reports, and creating
-                promotional materials that help raise awareness about the
-                unit&apos;s efforts.
+                : Content writers are responsible for documenting the activities
+                of NSS SoEE, writing reports, and creating promotional materials
+                that help raise awareness about the unit&apos;s efforts.
               </p>
             </li>
             <li>

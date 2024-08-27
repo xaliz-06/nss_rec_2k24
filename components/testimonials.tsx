@@ -15,11 +15,34 @@ import { useMedia } from "react-use";
 
 const TESTIMONIALS = [
   {
+    name: "Sohan Samal",
+    review:
+      "In 2020, I joined the NSS Project Lakshya. It has significantly changed my personality on a greater level. This is part of my family ❤️. NSS Project Lakshya has helped me reach my full potential in every profession. Here, I learnt how to manage social duty, emotions, moral values, and so on from both seniors and juniors. At last only one thing must be there in your heart that's only Serve For Your Nation Till The Last Breathe. Jai Hind 🇮🇳 Jai Jagannath 🙏",
+    imageUrl: "/person/sohan.jpeg",
+    working: "Asst. Director @FAB-TECH ENGINEERING & CONSTRUCTION",
+    additional:
+      "Corporate Relt.Officer @Sattvic Soul Foundation, Ex Project Trainee @BOSCH",
+  },
+  {
+    name: "Shanti Swaroop Maharana",
+    review:
+      "My journey with NSS has been unforgettable, marking the start of my volunteering life. From volunteering with NSS SoEE to becoming a Coordinator of NSS Project Lakshya, and later joining NSS KIIT Bureau, I've helped over 1000+ people. This experience gave me a sense of satisfaction, responsibility, and self-realization. NSS taught me that `An NSS Volunteer will forever be a volunteer,` making me a more responsible human being.",
+    imageUrl: "/person/shanti.jpeg",
+    working: "Ex Intern @HighRadius",
+  },
+  {
     name: "Amishrana Gautam",
     review:
       "Participating in the NSS Project Lakshya has deeply impacted me, providing a sense of fulfilment and joy from our social service efforts. Every smile from those we helped felt like recognition of the positive change we made. The friendships, bonds, lessons, and shared experiences have made this journey unforgettable and meaningful in ways I never imagined.",
     imageUrl: "/person/amishrana.jpeg",
     working: "TPSODL",
+  },
+  {
+    name: "Utkarsh",
+    review:
+      "My NSS journey began in my 2nd year, during the pandemic, with an online interview where I met my supportive seniors. Joining NSS was transformative, equipping me with leadership skills, valuable contacts, and recognition within my department. I made friends across different departments, but the most rewarding experience was recruiting and mentoring my juniors. This completed my NSS journey, as I left the society in capable hands, ensuring its continued impact.",
+    imageUrl: "/person/utkarsh.jpeg",
+    working: "PwC",
   },
   {
     name: "Preetam Nayak",
@@ -33,7 +56,7 @@ const TESTIMONIALS = [
     review:
       "When I first joined NSS Project Lakshya, I thought it would be just community service. But as and when time flew by it wasn't just community service it was an emotion. The family that I got here is amazing ❤️ The satisfaction that I got after doing a good work and bringing smiles on people's faces is just to good to be true. My experience here is filled with joys and sorrows. But the emotion stays the same ❤️",
     imageUrl: "/person/shruti.jpg",
-    working: "Intern @Panasonic",
+    working: "Flipkart",
   },
   {
     name: "Sreelagna Basu",
@@ -115,9 +138,12 @@ const Testimonials = () => {
                       </div>
 
                       <div className="flex flex-col gap-2 p-2">
-                        <div className="font-normal text-xs md:text-sm">
+                        <div className="font-normal text-xs md:text-sm flex flex-col gap-2">
                           <p className="italic no-ligatures">
                             {testimonial.review}
+                          </p>
+                          <p className="italic no-ligatures text-xs text-blue-900/60">
+                            {testimonial?.additional}
                           </p>
                         </div>
                       </div>
