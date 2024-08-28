@@ -22,7 +22,7 @@ const PERSONNEL = [
   // },
   {
     name: "Prashanta Kumar Patra",
-    designation: "Assitant Professor",
+    designation: "Assistant Professor",
     school: "School of Electronics Engineering",
     image: "/person/patra.jpeg",
   },

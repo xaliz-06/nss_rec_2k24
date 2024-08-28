@@ -63,7 +63,7 @@ const TESTIMONIALS = [
     review:
       "My journey with NSS has been truly remarkable. I had the privilege of meeting amazing people who supported me, and together, we became the backbone of NSS. Our success was a result of the team's dedication and hard work. Beyond the work, we also created unforgettable moments that I'll cherish forever. Though I miss being part of NSS, these memories will always hold a special place in my heart as life moves forward.",
     imageUrl: "/person/sree.jpeg",
-    working: "",
+    working: "Codeyoung",
   },
   {
     name: "Utsav Anand",
@@ -71,6 +71,13 @@ const TESTIMONIALS = [
       "I joined NSS in 2021, inspired by a senior during the pandemic. Opting for the Rural Development (RD) department, I overcame my fear of public speaking. We organized impactful events in villages, with support from seniors like Sohan Bhaiya. Our hard work paid off—we became the top NSS society in our university. To juniors: seize every opportunity; these skills will serve you well beyond college. Best wishes to all!",
     imageUrl: "/person/utsav.jpeg",
     working: "IFB",
+  },
+  {
+    name: "Durga Madhab Panda",
+    review:
+      "Being part of the NSS was a transformative experience. It offered me unique lessons in professionalism, teamwork, and balancing work with friendships. While many see NSS as just community service, my involvement provided deeper insights into these aspects and personal growth. Despite the ups and downs, the opportunity to contribute to the community remains one of my proudest moments.",
+    imageUrl: "/person/durga.jpeg",
+    working: "Tata Steel",
   },
 ];
 
@@ -117,7 +124,7 @@ const Testimonials = () => {
             {TESTIMONIALS.map((testimonial, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1 flex items-center justify-center">
-                  <Card className="rounded-md bg-slate-100 outline-1 w-[80vw] min-h-[40vh] md:min-h-[35vh] lg:min-h-[45vh]">
+                  <Card className="rounded-md bg-slate-100 outline-1 w-[80vw] min-h-[40vh] md:min-h-[40vh] lg:min-h-[50vh]">
                     <CardContent className="flex items-start justify-start flex-col md:flex-col p-3 gap-4">
                       <div className="flex flex-row justify-start items-center gap-3">
                         <Image
