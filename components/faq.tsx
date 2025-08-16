@@ -23,7 +23,7 @@ const FAQ = () => {
               2. How many units are there in NSS SoEE and what are they?
             </p>
             <p className="text-sm px-2 font-normal tracking-tighter md:text-base text-slate-300">
-              There are 3 units - Project Lakshya, Parivartan and Target JEE
+              There are 3 units - Project Lakshya, Parivartan and NSS Project NEEV
             </p>
           </div>
           <div className="flex flex-col gap-1">
