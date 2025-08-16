@@ -38,7 +38,7 @@ const Footer = () => {
             <p className="text-white text-xs font-bold md:text-lg">
               KIIT University, Patia, Bhubaneswar
             </p>
-            <p className="text-white text-xs md:text-base">2024</p>
+            <p className="text-white text-xs md:text-base">2025</p>
           </div>
         </div>
       </div>
