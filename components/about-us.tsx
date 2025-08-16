@@ -54,7 +54,7 @@ const AboutUs = () => {
             </li>
             <li>
               <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
-                <span className="font-bold text-slate-200">3. Target JEE:</span>{" "}
+                <span className="font-bold text-slate-200">3. NSS Project NEEV:</span>{" "}
                 This unit focuses on mentoring and guiding students who aspire
                 to excel in competitive exams.
               </p>
