@@ -18,7 +18,7 @@ const TESTIMONIALS = [
     name: "Barun Mishra",
     review:
       "My journey with NSS since 2nd year has been a truly enriching experience. It gave me immense knowledge, exposure, and real-world learning beyond classrooms. From connecting with people and building strong networks to organizing both small and large events, I developed valuable leadership and management skills. As a coordinator, I had the privilege of guiding volunteers and meeting influential personalities. NSS has shaped my confidence, teamwork, and ability to lead with responsibility.",
-    imageUrl: "/person/BARUN.jpeg",
+    imageUrl: "/person/Barun.jpeg",
     working: "",
     additional: "2021-2025",
   },
@@ -26,7 +26,7 @@ const TESTIMONIALS = [
     name: "Sai Sritam Sarangi",
     review:
       "Being a part of NSS Project Lakshya has been one of the most meaningful experiences of my college life. As a coordinator, I got the chance to work on initiatives like menstrual health awareness, blood donation camps, and cleanliness drives, which gave me a deeper understanding of real-life challenges and the impact of small efforts. These experiences improved my leadership, communication, and teamwork skills, while also teaching me responsibility and empathy. I now carry with me stronger interpersonal skills, practical project experience, a sense of social responsibility, and the satisfaction of knowing my contributions made a difference.",
-    imageUrl: "/person/SAI1.jpg",
+    imageUrl: "/person/SAI.jpg",
     working: "Placed-Antino, HCL Tech and Systango",
     additional: "2021-2025",
   },
@@ -98,7 +98,7 @@ const TESTIMONIALS = [
     name: "Swadhin Kumar Chakra",
     review:
       "My NSS experience gave me the opportunity to serve society through activities like cleanliness drives, awareness campaigns, and community service. It enhanced my teamwork, leadership, and communication skills while instilling empathy and social responsibility. NSS taught me discipline and the value of contributing towards the betterment of society.",
-    imageUrl: "/person/SWADHIN.jpg",
+    imageUrl: "/person/Swadhin.jpg",
     working: "",
     additional: "2021-2025",
   },

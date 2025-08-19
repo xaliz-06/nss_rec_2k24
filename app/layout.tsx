@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], fallback: ["Roboto", "Arial"] });
 
 export const metadata: Metadata = {
-  title: "Recruitment 2024",
-  description: "NSS SoEE Project Lakshya 2024",
+  title: "Recruitment 2025",
+  description: "NSS SoEE Project Lakshya 2025",
 };
 
 export default function RootLayout({
