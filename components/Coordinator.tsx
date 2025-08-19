@@ -132,21 +132,13 @@ const Testimonials = () => {
                           <div className="text-lg font-bold text-[#1B1A55] md:text-xl leading-5">
                             {testimonial.name}
                           </div>
-                          <div className="text-sm font-bold text-blue-900/70 md:text-base">
-                            {testimonial.working}
-                          </div>
+                          
                         </div>
                       </div>
 
                       <div className="flex flex-col gap-2 p-2">
                         <div className="font-normal text-xs md:text-sm flex flex-col gap-2">
-                          <p className="italic no-ligatures">
-                            {testimonial.review}
-                          </p>
-                          <p className="italic no-ligatures text-xs text-blue-900/60">
-                            {testimonial?.additional}
-                          </p>
-                        </div>
+                          </div>
                       </div>
                     </CardContent>
                   </Card>
