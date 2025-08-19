@@ -21,7 +21,7 @@ const AboutUs = () => {
             development in various sectors. NSS SoEE is comprised of three key
             units:{" "}
             <span className="font-bold text-white">
-              NSS SoEE Parivartan, NSS SoEE Lakshya, and Target JEE.
+              NSS SoEE Lakshya, NSS SoEE Parivartan and NSS Project NEEV.
             </span>{" "}
           </p>
           <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
@@ -55,8 +55,8 @@ const AboutUs = () => {
             <li>
               <p className="text-sm font-normal tracking-tighter text-slate-300 md:text-base">
                 <span className="font-bold text-slate-200">3. NSS Project NEEV:</span>{" "}
-                This unit focuses on mentoring and guiding students who aspire
-                to excel in competitive exams.
+                Empower young minds, nurture well-being, spark creativity, and build skills for life. 
+                Together, we create changemakers who shape brighter futures.
               </p>
             </li>
           </ol>

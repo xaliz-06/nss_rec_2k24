@@ -20,24 +20,24 @@ const PERSONNEL = [
   //   school: "School of Electronics Engineering",
   //   image: "/person/sruti.jpeg",
   // },
-  {
-    name: "Prashanta Kumar Patra",
-    designation: "Assistant Professor",
-    school: "School of Electronics Engineering",
-    image: "/person/patra.jpeg",
-  },
+  //{
+  //  name: "Prashanta Kumar Patra",
+  //  designation: "Assistant Professor",
+  //  school: "School of Electronics Engineering",
+  //  image: "/person/patra.jpeg",
+  //},
   {
     name: "Pravin Kumar Samanta",
     designation: "Assistant Professor",
     school: "School of Electronics Engineering",
     image: "/person/pk.jpeg",
   },
-  {
-    name: "Sraddhanjali Mohapatra",
-    designation: "Assistant Professor",
-    school: "School of Electronics Engineering",
-    image: "/person/mohapatra.jpeg",
-  },
+  //{
+  //  name: "Sraddhanjali Mohapatra",
+  //  designation: "Assistant Professor",
+  //  school: "School of Electronics Engineering",
+  //  image: "/person/mohapatra.jpeg",
+  //},
 ];
 
 const Personnel = () => {
@@ -67,7 +67,7 @@ const Personnel = () => {
       <div className="flex flex-col gap-4">
         <div className="flex flex-col items-start">
           <h3 className="font-bold text-[#070F2B] underline underline-offset-8 decoration-6 decoration-blue-900 text-3xl tracking-tight leading-10 md:text-4xl">
-            OUR PROGRAMME OFFICERS
+            OUR PROGRAMME OFFICER
           </h3>
         </div>
       </div>

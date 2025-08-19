@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { useMedia } from "react-use";
 
 const Footer = () => {
@@ -25,6 +25,9 @@ const Footer = () => {
               </Link>
               <Link href="https://www.twitter.com/Nss_Lakshya">
                 <FaXTwitter size={isMobile ? 24 : 32} />
+              </Link>
+              <Link href="https://www.youtube.com/@nssprojectlakshya3269">
+                <FaYoutube size={isMobile ? 24 : 32} />
               </Link>
             </div>
           </div>

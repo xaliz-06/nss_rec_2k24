@@ -1,6 +1,6 @@
 "use client";
 import { Separator } from "@/components/ui/separator";
-
+import Coordinator from "@/components/Coordinator";
 import Domain from "@/components/domain";
 import Intro from "@/components/intro";
 import Landing from "@/components/landing";
@@ -20,6 +20,8 @@ export default function Home() {
       <Gallery />
       <Separator className="mb-4" />
       <Domain />
+       <Separator className="mb-4" />
+      <Coordinator />
       <Separator className="mb-4" />
       <Testimonials />
     </div>

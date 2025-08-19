@@ -57,7 +57,7 @@ const Landing = () => {
 
         <div>
           <div className="p-2">
-            <Link href="https://forms.gle/NNoTQN9FgqAE5DeUA" target="_blank">
+            <Link href="https://forms.gle/uMUJKXc7CvDzYE3RA" target="_blank">
               <Button
                 variant="default"
                 size="lg"

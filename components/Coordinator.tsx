@@ -15,69 +15,64 @@ import { useMedia } from "react-use";
 
 const TESTIMONIALS = [
   {
-    name: "Sohan Samal",
-    review:
-      "In 2020, I joined the NSS Project Lakshya. It has significantly changed my personality on a greater level. This is part of my family ❤️. NSS Project Lakshya has helped me reach my full potential in every profession. Here, I learnt how to manage social duty, emotions, moral values, and so on from both seniors and juniors. At last only one thing must be there in your heart that's only Serve For Your Nation Till The Last Breathe. Jai Hind 🇮🇳 Jai Jagannath 🙏",
-    imageUrl: "/person/sohan.jpeg",
-    working: "Asst. Director @FAB-TECH ENGINEERING & CONSTRUCTION",
-    additional:
-      "Corporate Relt.Officer @Sattvic Soul Foundation, Ex Project Trainee @BOSCH",
+    name: "Aaditya Aanand",
+    imageUrl: "/person/Aaditya.jpg",
   },
   {
-    name: "Shanti Swaroop Maharana",
-    review:
-      "My journey with NSS has been unforgettable, marking the start of my volunteering life. From volunteering with NSS SoEE to becoming a Coordinator of NSS Project Lakshya, and later joining NSS KIIT Bureau, I've helped over 1000+ people. This experience gave me a sense of satisfaction, responsibility, and self-realization. NSS taught me that `An NSS Volunteer will forever be a volunteer,` making me a more responsible human being.",
-    imageUrl: "/person/shanti.jpeg",
-    working: "Ex Intern @HighRadius",
+    name: "Anshu Kumar",
+    imageUrl: "/person/ANSHU.jpeg",
   },
   {
-    name: "Amishrana Gautam",
-    review:
-      "Participating in the NSS Project Lakshya has deeply impacted me, providing a sense of fulfilment and joy from our social service efforts. Every smile from those we helped felt like recognition of the positive change we made. The friendships, bonds, lessons, and shared experiences have made this journey unforgettable and meaningful in ways I never imagined.",
-    imageUrl: "/person/amishrana.jpeg",
-    working: "TPSODL",
+    name: "Shreya Yadav",
+    imageUrl: "/person/Shreya.jpg",
   },
   {
-    name: "Utkarsh",
-    review:
-      "My NSS journey began in my 2nd year, during the pandemic, with an online interview where I met my supportive seniors. Joining NSS was transformative, equipping me with leadership skills, valuable contacts, and recognition within my department. I made friends across different departments, but the most rewarding experience was recruiting and mentoring my juniors. This completed my NSS journey, as I left the society in capable hands, ensuring its continued impact.",
-    imageUrl: "/person/utkarsh.jpeg",
-    working: "PwC",
+    name: "Avinash Kumar",
+    imageUrl: "/person/Avinash1.jpg",
   },
   {
-    name: "Preetam Nayak",
-    review:
-      "Being part of NSS Project Lakshya has profoundly shaped my personality. Engaging in activities to help underprivileged people has enhanced my empathy, leadership, and communication skills. The challenges taught me resilience and problem-solving, while interacting with diverse groups broadened my perspective, making me more adaptable. Overall, it instilled in me a sense of purpose and confidence in my abilities.",
-    imageUrl: "/person/preetam.jpg",
-    working: "CloudThat",
+    name: "Raghav Khandelwal",
+    imageUrl: "/person/Raghav.jpg",
   },
   {
-    name: "Shruti Khasnavis",
-    review:
-      "When I first joined NSS Project Lakshya, I thought it would be just community service. But as and when time flew by it wasn't just community service it was an emotion. The family that I got here is amazing ❤️ The satisfaction that I got after doing a good work and bringing smiles on people's faces is just to good to be true. My experience here is filled with joys and sorrows. But the emotion stays the same ❤️",
-    imageUrl: "/person/shruti.jpg",
-    working: "Flipkart",
+    name: "Swadhin Sarangi",
+    imageUrl: "/person/SwadhinSarangi.jpg",
   },
   {
-    name: "Sreelagna Basu",
-    review:
-      "My journey with NSS has been truly remarkable. I had the privilege of meeting amazing people who supported me, and together, we became the backbone of NSS. Our success was a result of the team's dedication and hard work. Beyond the work, we also created unforgettable moments that I'll cherish forever. Though I miss being part of NSS, these memories will always hold a special place in my heart as life moves forward.",
-    imageUrl: "/person/sree.jpeg",
-    working: "Codeyoung",
+    name: "Divya Jyoti Sarangi",
+    imageUrl: "/person/DIVYA.jpg",
   },
   {
-    name: "Utsav Anand",
-    review:
-      "I joined NSS in 2021, inspired by a senior during the pandemic. Opting for the Rural Development (RD) department, I overcame my fear of public speaking. We organized impactful events in villages, with support from seniors like Sohan Bhaiya. Our hard work paid off—we became the top NSS society in our university. To juniors: seize every opportunity; these skills will serve you well beyond college. Best wishes to all!",
-    imageUrl: "/person/utsav.jpeg",
-    working: "IFB",
+    name: "Shrutam Pradhan",
+    imageUrl: "/person/SHRUTAM.jpg",
   },
   {
-    name: "Durga Madhab Panda",
-    review:
-      "Being part of the NSS was a transformative experience. It offered me unique lessons in professionalism, teamwork, and balancing work with friendships. While many see NSS as just community service, my involvement provided deeper insights into these aspects and personal growth. Despite the ups and downs, the opportunity to contribute to the community remains one of my proudest moments.",
-    imageUrl: "/person/durga.jpeg",
-    working: "Tata Steel",
+    name: "Owaish Jawed",
+    imageUrl: "/person/OWAISH.jpg",
+  },
+  {
+    name: "Rohanpreet Singh Kalsi",
+    imageUrl: "/person/Rohanpreet.jpg",
+  },
+  {
+    name: "Souritro Bali",
+    imageUrl: "/person/SOURITRA.jpg",
+  },
+  {
+    name: "Akankshya Mohapatra",
+    imageUrl: "/person/AKANKSHYA.jpg",
+  },
+  {
+    name: "Rajdeep Saha",
+    imageUrl: "/person/Rajdeep.jpg",
+  },
+  {
+    name: "Shilky",
+    imageUrl: "/person/SHILKY.jpg",
+  },
+  {
+    name: "Divya Shekhar",
+    imageUrl: "/person/DIVYASHEKHAR.jpeg",
   },
 ];
 
@@ -108,8 +103,7 @@ const Testimonials = () => {
       <div className="flex flex-col gap-4">
         <div className="flex flex-col items-start">
           <h3 className="font-bold text-[#070F2B] underline underline-offset-8 decoration-6 decoration-blue-900 text-3xl tracking-tight leading-10 md:text-4xl">
-            OUR ALUMNI
-          </h3>
+            OUR COORDINATORS (2025-2026)         </h3>
         </div>
       </div>
       <div className="p-2 md:pt-8">
@@ -124,7 +118,7 @@ const Testimonials = () => {
             {TESTIMONIALS.map((testimonial, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1 flex items-center justify-center">
-                  <Card className="rounded-md bg-slate-100 outline-1 w-[80vw] min-h-[40vh] md:min-h-[40vh] lg:min-h-[50vh]">
+                  <Card className="rounded-md bg-slate-100 outline-1 w-[80vw] min-h-[20vh] md:min-h-[20vh] lg:min-h-[25vh]">
                     <CardContent className="flex items-start justify-start flex-col md:flex-col p-3 gap-4">
                       <div className="flex flex-row justify-start items-center gap-3">
                         <Image

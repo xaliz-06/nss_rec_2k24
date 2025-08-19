@@ -15,6 +15,110 @@ import { useMedia } from "react-use";
 
 const TESTIMONIALS = [
   {
+    name: "Barun Mishra",
+    review:
+      "My journey with NSS since 2nd year has been a truly enriching experience. It gave me immense knowledge, exposure, and real-world learning beyond classrooms. From connecting with people and building strong networks to organizing both small and large events, I developed valuable leadership and management skills. As a coordinator, I had the privilege of guiding volunteers and meeting influential personalities. NSS has shaped my confidence, teamwork, and ability to lead with responsibility.",
+    imageUrl: "/person/BARUN.jpeg",
+    working: "",
+    additional: "2021-2025",
+  },
+  {
+    name: "Sai Sritam Sarangi",
+    review:
+      "Being a part of NSS Project Lakshya has been one of the most meaningful experiences of my college life. As a coordinator, I got the chance to work on initiatives like menstrual health awareness, blood donation camps, and cleanliness drives, which gave me a deeper understanding of real-life challenges and the impact of small efforts. These experiences improved my leadership, communication, and teamwork skills, while also teaching me responsibility and empathy. I now carry with me stronger interpersonal skills, practical project experience, a sense of social responsibility, and the satisfaction of knowing my contributions made a difference.",
+    imageUrl: "/person/SAI1.jpg",
+    working: "Placed-Antino, HCL Tech and Systango",
+    additional: "2021-2025",
+  },
+  {
+    name: "Soumen Das",
+    review:
+      "A great experience and lot of learnings in the journey from a volunteer to co-ordinator.",
+    imageUrl: "/person/Soumen.png",
+    working: "Placed",
+    additional: "2021-2025",
+  },
+  {
+    name: "Shubham Nayak",
+    review:
+      "Being an NSS volunteer has been a truly inspiring journey that taught me the values of discipline, empathy, and social responsibility. Through different activities, I realized how even small acts of service can bring a big change in people’s lives. The experience not only gave me a sense of purpose but also helped me grow as an individual. To my juniors, I would say—make the most of this opportunity. NSS is more than just volunteering; it is a journey of self-discovery, learning, and making a real difference in society.",
+    imageUrl: "/person/SHUBHAM.jpg",
+    working: "Placed- Wipro, Indegene & TCS",
+    additional: "2021-2025",
+  },
+  {
+    name: "Priyanshi Chouhan",
+    review:
+      "My NSS journey has been one of the most enriching chapters of my college life. What began as a step toward community service soon became a life-changing experience. Through various initiatives, I not only had the opportunity to contribute to society but also discovered my own strengths in leadership, teamwork, and empathy. NSS gave me a sense of belonging and purpose, and though my active journey has ended, the values and memories will always stay with me.",
+    imageUrl: "/person/Priyanshi.jpeg",
+    working: "",
+    additional: "2021-2025",
+  },
+  {
+    name: "Sounak Saha",
+    review:
+      "First of all thanks to NSS for giving me the chance to be a part of this prestigious society.During my time as the Coordinator of NSS Lakshya, I got the chance to lead with purpose and work closely with a passionate team. Organizing and managing successful events not only taught me the value of planning and teamwork, but also helped me grow as a leader who can adapt, motivate, and bring people together. More than just managing tasks, the experience gave me confidence, stronger communication skills, and the joy of seeing our collective efforts make a real impact in the community. NSS wasn’t just about service—it was about learning, leading, and growing alongside like-minded individuals.",
+    imageUrl: "/person/Sounak.jpeg",
+    working: "Placed- Infinity learn, Startek and PSP Inc",
+    additional: "2021-2025",
+  },
+  {
+    name: "Boibhav Chakraborty",
+    review:
+      "NSS SoEE Project Lakshya gave me the opportunity to develop as a person. I learned social skills, developed emotional intelligence and got a chance to make a little difference. The events, activities and discussion among peers, fun sessions and insightful senior-junior interactions are some of the happiest memories I made.",
+    imageUrl: "/person/BOIBHAV.jpg",
+    working: "Placed at GlobalLogic-Hitachi",
+    additional: "2021-2025",
+  },
+  {
+    name: "Srija Ghosh",
+    review:
+      "Being in NSS taught me a lot about teamwork and giving back. It really helped me grow and gave me memories I’ll cherish forever.",
+    imageUrl: "/person/SRIJA.jpeg",
+    working: "Placed at TCS",
+    additional: "2021-2025",
+  },
+  {
+    name: "Ankit Swaraj",
+    review:
+      "NSS was more than volunteering; it was discovering myself through service. These three years taught me empathy, teamwork, and how small actions can create big change.",
+    imageUrl: "/person/ankit.jpg",
+    working: "",
+    additional: "2021-2025",
+  },
+  {
+    name: "Vaashkar Paul",
+    review:
+      "Say yes to every plan or trip that your friends are gonna make. Make enough memories so you'll have something to cherish when life hits you hard and take a lot of pictures or videos and make sure you store them in the cloud cause it will hurt more when you can't post the good pictures that you kept to post for some other day. And talk to a lot of people, connect with them. Life's probably too short to just be.",
+    imageUrl: "/person/Vaashkar.jpg",
+    working: "Placed- Coforge",
+    additional: "2021-2025",
+  },
+  {
+    name: "Swadhin Kumar Chakra",
+    review:
+      "My NSS experience gave me the opportunity to serve society through activities like cleanliness drives, awareness campaigns, and community service. It enhanced my teamwork, leadership, and communication skills while instilling empathy and social responsibility. NSS taught me discipline and the value of contributing towards the betterment of society.",
+    imageUrl: "/person/SWADHIN.jpg",
+    working: "",
+    additional: "2021-2025",
+  },
+  {
+    name: "Riya Tiwari",
+    review:
+      "Had a wonderful time while being a volunteer in NSS Lakshaya.",
+    imageUrl: "/person/RIYA.jpg",
+    working: "",
+    additional: "2021-2025",
+  },
+  {
+    name: "Subhasish Sahoo",
+    review:
+      "Even though I come from a media domain, being part of NSS Project Lakshya has been one of the most memorable parts of my journey at KIIT. I’ve had the chance to participate in many events, conduct bootcamps, spread awareness on social issues, and even donate blood. More than just volunteering, it has been about enjoying the moments, learning, and having fun with friends in the society. In short, this experience has been like being part of a small family that works together for a bigger cause.",
+    imageUrl: "/person/Subhasish.jpg",
+    working: "",
+    additional: "2021-2025",
+  },
+  {
     name: "Sohan Samal",
     review:
       "In 2020, I joined the NSS Project Lakshya. It has significantly changed my personality on a greater level. This is part of my family ❤️. NSS Project Lakshya has helped me reach my full potential in every profession. Here, I learnt how to manage social duty, emotions, moral values, and so on from both seniors and juniors. At last only one thing must be there in your heart that's only Serve For Your Nation Till The Last Breathe. Jai Hind 🇮🇳 Jai Jagannath 🙏",

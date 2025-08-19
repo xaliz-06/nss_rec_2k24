@@ -9,7 +9,7 @@ import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 
 import Autoplay from "embla-carousel-autoplay";
 
-const GALLERY = ["/faq/22.jpg", "/faq/23.jpg", "/faq/24.jpg", "/faq/25.jpg"];
+const GALLERY = ["/faq/31.jpg", "/faq/64.jpg", "/faq/22.jpg", "/faq/23.jpg", "/faq/24.jpg", "/faq/25.jpg"];
 
 const FAQGallery = () => {
   const isMobile = useMedia("(max-width: 576px)", false);

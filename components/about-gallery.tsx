@@ -10,6 +10,14 @@ import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
 const GALLERY = [
+  "/gallery/33.jpg",
+  "/gallery/41.jpg",
+  "/gallery/47.JPG",
+  "/gallery/55.png",
+  "/gallery/61.JPG",
+  "/gallery/51.JPG",
+  "/gallery/53.png",
+  "/gallery/62.JPG",
   "/gallery/21.jpg",
   "/gallery/22.jpg",
   "/gallery/23.jpg",
