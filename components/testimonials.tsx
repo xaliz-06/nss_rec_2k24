@@ -114,7 +114,7 @@ const TESTIMONIALS = [
     name: "Subhasish Sahoo",
     review:
       "Even though I come from a media domain, being part of NSS Project Lakshya has been one of the most memorable parts of my journey at KIIT. I’ve had the chance to participate in many events, conduct bootcamps, spread awareness on social issues, and even donate blood. More than just volunteering, it has been about enjoying the moments, learning, and having fun with friends in the society. In short, this experience has been like being part of a small family that works together for a bigger cause.",
-    imageUrl: "/person/Subhasish.jpg",
+    imageUrl: "/person/Subhasish.JPG",
     working: "",
     additional: "2021-2025",
   },
