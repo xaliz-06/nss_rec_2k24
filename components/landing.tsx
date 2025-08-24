@@ -44,7 +44,7 @@ const Landing = () => {
           </h2>
         </div>
         <h3 className="font-semibold text-xl tracking-tighter text-rose-600 md:text-3xl">
-          Recruitment Is Live!
+          Result out soon!
         </h3>
         <div className="w-full flex justify-center items-center">
           <Image
@@ -57,16 +57,16 @@ const Landing = () => {
 
         <div>
           <div className="p-2">
-            <Link href="https://forms.gle/uMUJKXc7CvDzYE3RA" target="_blank">
-              <Button
+            <Link href="" target="_blank">
+              {/* <Button
                 variant="default"
                 size="lg"
                 className="font-bold bg-[#070F2B] hover:bg-blue-600/20 hover:text-white text-white border-none outline-none focus-visible:ring-offset-0 focus-visible:ring-transparent focus:bg-blue-600/30 w-72 rounded-md transition px-8 py-6"
               >
                 <p className="font-bold text-white tracking-tight text-2xl">
-                  Register Now!
+                  Register Closed!
                 </p>
-              </Button>
+              </Button> */}
             </Link>
           </div>
         </div>
