@@ -43,7 +43,7 @@ const Landing = () => {
             Project Lakshya
           </h2>
         </div>
-        <h3 className="font-semibold text-xl tracking-tighter text-rose-600 md:text-3xl">
+        <h3 className="font-semibold text-xl tracking-tighter text-white md:text-3xl">
           Result out soon!
         </h3>
         <div className="w-full flex justify-center items-center">
