@@ -44,7 +44,7 @@ const Landing = () => {
           </h2>
         </div>
         <h3 className="font-semibold text-xl tracking-tighter text-white md:text-3xl">
-          Result is Out!
+          Results are Out!
         </h3>
         <div className="w-full flex justify-center items-center">
           <Image
